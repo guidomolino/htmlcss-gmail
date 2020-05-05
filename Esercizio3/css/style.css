@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(../img/wood.jpg);
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+}
+/* icona+titolo */
+header{
+  color: white;
+  font-size: 30px;
+  border-bottom: 2px solid white;
+}
+.icon{
+  vertical-align: middle;
+  width: 200px;
+}
+/* search+avviso */
+nav{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.advice{
+  font-size: 30px;
+  margin-top: 20px;
+}
+#advice-number{
+  background-color: orange;
+  border-radius: 50% 50%;
+  padding: 7px;
+}
+/* casella posta */
+main{
+  border-top: 2px solid rgb(207, 202, 208);
+  border-bottom: 2px solid rgb(207, 202, 208);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mail{
+  border: 1px solid black;
+}
+.read{
+  background-color: rgb(177, 177, 177);
+}
+.unread{
+  background-color: white;
+}
+.oggetto{
+  color: black;
+}
+.contenuto{
+  color: rgb(84, 84, 84);
+  margin-left: 3%;
+}
+/* autore */
+footer{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 5px;
+}
+#autore{
+  font-size: 13px;
+}
